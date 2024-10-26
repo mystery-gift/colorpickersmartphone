@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+}
+
+#imageCanvas {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    cursor: crosshair;
+}
+
+#colorInfo {
+    margin-top: 10px;
+}
+
+#colorDisplay {
+    margin-top: 10px;
+    width: 100px;
+    height: 50px;
+    border: 1px solid #000;
+    margin: 0 auto;
+}
